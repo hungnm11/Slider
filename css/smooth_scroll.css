@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	min-height: 0px;
+}
+
+header {
+	width: 100%;
+	background-color: #ccc;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+#nav ul {
+	width: 1170px;
+	margin: 0 auto;
+	height: 60px;
+}
+
+#nav li {
+	float: left;
+	list-style: none;
+}
+
+#nav a {
+	padding: 5px 20px;
+	text-decoration: none;
+	font-family: arial;
+
+}
+
+#home {
+	width: 100%;
+	min-height: 100%;
+	background-color: #e1e1e1;
+}
+
+#about {
+	width: 100%;
+	min-height: 100%;
+	background-color: #c3c3c3;
+}
+
+#services {
+	width: 100%;
+	min-height: 100%;
+	background-color: #fff;
+}
+
+#photos {
+	width: 100%;
+	min-height: 100%;
+	background-color: #e1e1e1;
+}
+
+#contact {
+	width: 100%;
+	min-height: 100%;
+	background-color: #c3c3c3;
+}
+
+#nav .active {
+	color: red;
+}
